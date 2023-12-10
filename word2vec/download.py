@@ -2,7 +2,7 @@ import os
 import requests
 import zipfile
 
-DATA_URL = "https://s3.amazonaws.com/research.metamind.io/wikitext-2-v1.zip"
+DATA_URL = "https://s3.amazonaws.com/research.metamind.io/wikitext/wikitext-2-v1.zip"
 
 
 def download_and_extract(url, data_dir, force=False):
